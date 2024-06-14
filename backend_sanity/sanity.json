@@ -1,0 +1,18 @@
+{
+    "root": true,
+    "project": {
+      "name": "my-portfolio"
+    },
+    "api": {
+      "projectId": "yourProjectId",
+      "dataset": "production"
+    },
+    "plugins": [],
+    "parts": [
+      {
+        "name": "part:@sanity/base/schema",
+        "path": "./schemas/schema.js"
+      }
+    ]
+  }
+  
