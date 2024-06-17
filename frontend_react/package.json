@@ -2,7 +2,7 @@
   "name": "frontend_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/myportfolio",
+  "homepage": "https://arunraj003.github.io/myportfolio",
   "dependencies": {
     "@sanity/client": "^6.20.0",
     "@sanity/image-url": "^1.0.2",
@@ -47,5 +47,9 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
