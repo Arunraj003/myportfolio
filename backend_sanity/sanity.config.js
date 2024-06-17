@@ -10,9 +10,15 @@ export default defineConfig({
   projectId: 'smxhcqgs',
   dataset: 'production',
 
-  plugins: [structureTool(), visionTool()],
+  plugins: [
+    structureTool(), 
+    visionTool(),
+  ],
 
   schema: {
     types: schemaTypes,
   },
 })
+
+
+
