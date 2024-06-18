@@ -2,7 +2,6 @@
   "name": "frontend_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arunraj003.github.io/myportfolio",
   "dependencies": {
     "@sanity/client": "^6.20.0",
     "@sanity/image-url": "^1.0.2",
