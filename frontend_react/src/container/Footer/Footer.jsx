@@ -49,13 +49,16 @@ const Footer = () => {
           <a href="mobile:+91 93619 95841" className="p-text">+91 93619 95841</a>
         </div>
       </div>
+      
+      {/* form */}
+
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
-            <input className="p-text" type="text" placeholder="Enter Your Name" name="username" value={username} onChange={handleChangeInput} />
+            <input className="p-text" type="text" placeholder="Enter Your Name" name="username" value={username} onChange={handleChangeInput} required/>
           </div>
           <div className="app__flex">
-            <input className="p-text" type="email" placeholder="Enter Your Email" name="email" value={email} onChange={handleChangeInput} />
+            <input className="p-text" type="email" placeholder="Enter Your Email" name="email" value={email} onChange={handleChangeInput} required />
           </div>
  
           <div>
@@ -65,6 +68,7 @@ const Footer = () => {
               value={message}
               name="message"
               onChange={handleChangeInput}
+              required
             />
           </div>
  
